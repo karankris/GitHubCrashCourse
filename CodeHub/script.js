@@ -29,5 +29,13 @@ function Vechiles() {
         console.log('Bike Brand:', 'Honda shared:', honda, 'Java shared:', java, 'Enfield shared', Enfield);
     }
     SportsBike()
+    function SportsCar() {
+        //200
+        const honda = bikes.varient.petrol; // petrol
+        const BMW = bikes.varient.disel;
+        const Jag = bikes.varient.battery;
+        console.log('Bike Brand:', 'Honda shared:', honda, 'Java shared:', BMW, 'BMW shared', Jag);
+    }
+    SportsCar()
 }
-Vehile()
+Vechiles()
