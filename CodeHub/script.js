@@ -1,4 +1,4 @@
-var BE_API  =  { varient: { petrol:20 , disel: 70, battery: 30 } } //server API DATA 
+var BE  =  { varient: { petrol:20 , disel: 70, battery: 30 } } //server API DATA 
 
 function Vechiles() {
     const car = BE;
