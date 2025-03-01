@@ -8,9 +8,9 @@ function Vechiles() {
     function carbrand() {
         //200
         const toyoto = car.varient.petrol; // petrol
-        const audi = car.varient.disel;
+        const audis = car.varient.disel;
         const tata = car.varient.battery;
-        console.log('Cars Brand:', 'Toyoto shared:', toyoto, 'Audi shared:', audi, 'Tata shared', tata);
+        console.log('Cars Brand:', 'Toyoto shared:', toyoto, 'Audi shareasdfasdfad:', audis, 'Tata shared', tata);
     }
     carbrand();
     function bike() {
