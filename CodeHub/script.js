@@ -21,5 +21,13 @@ function Vechiles() {
         console.log('Bike Brand:', 'Honda shared:', honda, 'Java shared:', java, 'Enfield shared', Enfield);
     }
     bike();
+    function SportsBike() {
+        //200
+        const honda = bikes.varient.petrol; // petrol
+        const java = bikes.varient.disel;
+        const Enfield = bikes.varient.battery;
+        console.log('Bike Brand:', 'Honda shared:', honda, 'Java shared:', java, 'Enfield shared', Enfield);
+    }
+    SportsBike()
 }
 Vehile()
