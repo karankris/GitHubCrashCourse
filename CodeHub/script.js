@@ -1,4 +1,4 @@
-var BE_API  =  { varient: { petrol:20 , disel: 70, battery: 30 } } //server API DATA 
+var BE  =  { varient: { petrol:20 , disel: 70, battery: 30 } } //server API DATA 
 
 function Vechiles() {
     const car = BE;
@@ -8,9 +8,9 @@ function Vechiles() {
     function carbrand() {
         //200
         const toyoto = car.varient.petrol; // petrol
-        const audis = car.varient.disel;
+        const audi = car.varient.disel;
         const tata = car.varient.battery;
-        console.log('Cars Brand:', 'Toyoto shared:', toyoto, 'Audi shareasdfasdfad:', audis, 'Tata shared', tata);
+        console.log('Cars Brand:', 'Toyoto shared:', toyoto, 'Audi shared:', audi, 'Tata shared', tata);
     }
     carbrand();
     function bike() {
